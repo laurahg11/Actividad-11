@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+	
+	.rostro{
+	
+fill: yellow;
+	}
+		
+	.ojos{
+	
+fill: black;
+		hover
+	}
+		.boca {
+	
+stroke: #000;
+			stroke-witdh: 6px;
+				stroke-linecap: round;
+	}
+
+		.ceja-der {
+	
+transform:  rotate( 100deg);
+			transform-origin: 156px 82px;		
+	}
+		
+		.ceja-izq {
+	
+transform: rotate( 80deg);
+	transform-origin: 100px 82px;		
+	}
+	
+		
+	</style>
+	
+	
+	
+	
+</head>
+
+<body>
+	<div style="align-content: center">
+		
+	<svg class="carafeliz" width="500" height="500" viewBox="0 0 500 500">
+		
+<circle class="rostro" cx="128" cy="128" r="120"/>
+		
+			
+<circle class="ojos" cx="90" cy="100" r="15"/>
+<circle class="ojos" cx="160" cy="100" r="15"/>
+		
+<path class="boca" d="M100,160, Q128, 190 156, 160" />
+		
+<rect class="ceja-izq" x="85" y="76" width="6" height="32" rx="4" ry="4" />
+		
+<rect class="ceja-der" x="140" y="57" width="6" height="32" rx="4" ry="4" />
+		
+		</svg>
+		
+	</div>
+		
+		
+	
+</body>
+</html>
